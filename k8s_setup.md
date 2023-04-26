@@ -18,10 +18,12 @@ You can follow the same procedure in k8s official documentation. AWS document [G
    mv ./kubectl /usr/local/bin
    kubectl version --short --client
    ```
-2. Setup eksctl
+2. Setup eksctl    
    a. Download and extract the latest release of eksctl
    b. Move the extracted binary to /usr/local/bin
    c. Test that your eksctl installation was successful by using the command eksctl version
+   
+   https://anywhere.eks.amazonaws.com/docs/getting-started/install/
 
    ```sh
    curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
